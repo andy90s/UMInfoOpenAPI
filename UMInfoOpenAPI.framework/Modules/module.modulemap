@@ -1,0 +1,6 @@
+framework module UMInfoOpenAPI {
+  umbrella header "UMInfoOpenAPI.h"
+
+  export *
+  module * { export * }
+}
