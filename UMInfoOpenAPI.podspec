@@ -10,4 +10,8 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target    = '8.0'
   s.ios.vendored_framework   = 'UMInfoOpenAPI.framework'
+  s.dependency 'CocoaLumberjack', '~> 3.2.0'
+  s.dependency 'MQTTClient', '~> 0.9.4'
+  s.dependency 'Reachability', '~> 3.2'
+  s.dependency 'RealReachability', '~> 1.1.8'
 end
