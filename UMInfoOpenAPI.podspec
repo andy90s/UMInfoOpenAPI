@@ -14,7 +14,5 @@ Pod::Spec.new do |s|
   s.dependency 'MQTTClient', '~> 0.9.4'
   s.dependency 'Reachability', '~> 3.2'
   s.dependency 'RealReachability', '~> 1.1.8'
-  s.resource_bundles = {
-    'UMInfoOpenAPI' => ['UMInfoOpenAPI/Assets/*.{png,cer}'],
-  }
+ 
 end
